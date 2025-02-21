@@ -1,6 +1,6 @@
 from django.utils.translation import gettext_lazy
 
-from . import __compatibility__, __version__
+from pretix_worldlinedirect import __compatibility__, __version__
 
 try:
     from pretix.base.plugins import PluginConfig
@@ -10,17 +10,17 @@ except ImportError:
 
 class PluginApp(PluginConfig):
     default = True
-    name = "pretix_worldlinedirect"
-    verbose_name = "Worldline Direct"
+    name = "pretix_payonedirect"
+    verbose_name = "PayOne Direct"
 
     class PretixPluginMeta:
-        name = gettext_lazy("Worldline Direct")
+        name = gettext_lazy("PayOne Direct")
         author = "pretix team"
-        description = gettext_lazy("Accept payments through Worldline Direct")
+        description = gettext_lazy("Accept payments through PayOne Direct")
         visible = True
         version = __version__
         category = "PAYMENT"
-        picture = "pretix_worldlinedirect/logo.svg"
+        picture = "pretix_payonedirect/logo.svg"
         compatibility = __compatibility__
 
     def ready(self):
