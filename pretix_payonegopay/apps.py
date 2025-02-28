@@ -30,7 +30,7 @@ class PluginApp(PluginConfig):
                 "Also referred to as <em>Global Online Payment Services</em> or <em>PAYONE Direct</em>. Use this "
                 "extension, if PAYONE has provided you with a <em>PSP ID</em>."
             )
-            t += '</div>'
+            t += "</div>"
 
             return t
 
