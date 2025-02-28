@@ -3,7 +3,7 @@ from pretix_worldlinedirect.paymentmethods import (
     payment_methods as payment_methods_repo,
 )
 
-from .payment import PayOneDirectSettingsHolder, WorldlineDirectMethod
+from .payment import PAYONEGOPaySettingsHolder, WorldlineDirectMethod
 
 supported_methods = [
     "scheme",
@@ -27,5 +27,5 @@ payment_methods = [
 ]
 
 payment_method_classes = get_payment_method_classes(
-    "PayOneDirect", payment_methods, WorldlineDirectMethod, PayOneDirectSettingsHolder
+    "PAYONEGOPay", payment_methods, WorldlineDirectMethod, PAYONEGOPaySettingsHolder
 )

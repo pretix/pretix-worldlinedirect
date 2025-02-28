@@ -18,7 +18,7 @@ dependencies = [
 
 [project.entry-points."pretix.plugin"]
 pretix_worldlinedirect = "pretix_worldlinedirect:PretixPluginMeta"
-pretix_payonedirect = "pretix_payonedirect:PretixPluginMeta"
+pretix_payonegopay = "pretix_payonegopay:PretixPluginMeta"
 
 [project.entry-points."distutils.commands"]
 build = "pretix_plugin_build.build:CustomBuild"

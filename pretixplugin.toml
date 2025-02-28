@@ -1,5 +1,5 @@
 [plugin]
 package = "pretix-worldlinedirect"
-modules = [ "pretix_worldlinedirect", "pretix_payonedirect" ]
+modules = [ "pretix_worldlinedirect", "pretix_payonegopay" ]
 marketplace_name = "worldlinedirect"
 
