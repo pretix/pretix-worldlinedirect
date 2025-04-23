@@ -43,10 +43,9 @@ License
 -------
 
 
-Copyright 2025 Raphael Michel
+Copyright 2025 rami.io GmbH
 
-Released under the terms of the proprietary pretix Enterprise license.
-
+Released under the terms of the Apache License 2.0
 
 
 .. _pretix: https://github.com/pretix/pretix

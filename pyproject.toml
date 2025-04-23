@@ -3,7 +3,7 @@ name = "pretix-worldlinedirect"
 dynamic = ["version"]
 description = "Accept payments through Worldline Direct"
 readme = "README.rst"
-license = {text = "pretix Enterprise"}
+license = {text = "Apache"}
 keywords = ["pretix"]
 authors = [
     {name = "pretix team", email = "support@pretix.eu"},
