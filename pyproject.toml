@@ -30,8 +30,8 @@ requires = [
 ]
 
 [project.urls]
-homepage = "https://code.rami.io/pretix/pretix-worldlinedirect/"
-repository = "https://code.rami.io/pretix/pretix-worldlinedirect/"
+homepage = "https://github.com/pretix/pretix-worldlinedirect/"
+repository = "https://github.com/pretix/pretix-worldlinedirect/"
 
 [tool.setuptools]
 include-package-data = true
