@@ -453,7 +453,7 @@ class WorldlineDirectMethod(BasePaymentProvider):
 
         else:
             local_allowed = (
-                self.settings.test_psp_id
+                self.settings.live_psp_id
                 and self.settings.live_api_key_id
                 and self.settings.live_api_key_secret
             )
