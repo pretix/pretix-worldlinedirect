@@ -476,14 +476,14 @@ class WorldlineDirectMethod(BasePaymentProvider):
         ident = self.identifier.split("_")[0]
 
         # We could use the helper functions of the SDK here - but this makes it so much less legible.
-        # We are also setting all PaymentMethodSpecificInputs to automatically caputre the payment, since manual
+        # We are also setting all PaymentMethodSpecificInputs to automatically capture the payment, since manual
         # captures display confusing/non-synchronized intermittent status messages.
         return {
             "cardPaymentMethodSpecificInput": {
                 "authorizationMode": "SALE",
             },
             "redirectPaymentMethodSpecificInput": {
-                "requiredApproval": False,
+                "requiresApproval": False,
             },
             "mobilePaymentMethodSpecificInput": {
                 "authorizationMode": "SALE",
