@@ -118,6 +118,12 @@ payment_methods = [
         "verbose_name": _("PayPal"),
     },
     {
+        "method": 900,
+        "identifier": "wero",
+        "public_name": _("Wero"),
+        "verbose_name": _("Wero"),
+    },
+    {
         "method": 3012,
         "type": "scheme",
         "identifier": "bancontact",
