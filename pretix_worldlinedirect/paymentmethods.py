@@ -120,8 +120,8 @@ payment_methods = [
     {
         "method": 900,
         "identifier": "wero",
-        "public_name": _("Wero"),
-        "verbose_name": _("Wero"),
+        "public_name": _("WERO"),
+        "verbose_name": _("WERO"),
     },
     {
         "method": 3012,

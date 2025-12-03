@@ -21,6 +21,7 @@ supported_methods = [
     "wechatpay",
     "aplipayplus",
     "eps",
+    "wero"
 ]
 payment_methods = [
     item for item in payment_methods_repo if item.get("identifier") in supported_methods
