@@ -2,4 +2,8 @@
 package = "pretix-worldlinedirect"
 modules = [ "pretix_worldlinedirect", "pretix_payonegopay" ]
 marketplace_name = "worldlinedirect"
+pypi = true
+repository_servers = { origin = "github.com", gitlab = "code.rami.io" }
+tag_targets = [ "origin", "gitlab" ]
+branch_targets = [ "origin/main", "gitlab/main", "f:gitlab/pypi" ]
 
