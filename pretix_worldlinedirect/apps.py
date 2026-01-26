@@ -19,6 +19,7 @@ class PluginApp(PluginConfig):
         description = gettext_lazy("Accept payments through Worldline Direct")
         visible = True
         version = __version__
+        compatibility = "pretix>=2025.9.0"
         category = "PAYMENT"
         picture = "pretix_worldlinedirect/logo.svg"
         compatibility = __compatibility__

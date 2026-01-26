@@ -18,6 +18,7 @@ class PluginApp(PluginConfig):
         author = "pretix team"
         visible = True
         version = __version__
+        compatibility = "pretix>=2025.9.0"
         category = "PAYMENT"
         picture = "pretix_payonegopay/logo.svg"
         compatibility = __compatibility__
